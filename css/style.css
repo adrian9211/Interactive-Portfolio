@@ -76,7 +76,7 @@
   }
   /*  Content section */
   header {
-    background: url(/background4.jpg) no-repeat center center fixed;
+    background: url(background4.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
   }
@@ -193,7 +193,7 @@
   main {
     padding: 0;
     margin: 0;
-    background: url(/background-cement.jpg) no-repeat center center fixed;
+    background: url(background-cement.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 }
