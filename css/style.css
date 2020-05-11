@@ -1,0 +1,200 @@
+@media all and (min-width: 710px) {
+  /* Genaral styles */
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.4;
+    overflow-x: hidden;
+  }
+  /*  Navbar */
+  #navbar {
+    font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 3rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+  }
+  #navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+  #navbar h2 a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+  #navbar h2 a:hover {
+    background: -webkit-linear-gradient(#333, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+  #navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #navbar li a:hover {
+    background-color: cadetblue;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+  }
+  /*  Content section */
+  header {
+    background: url(/background4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  .text-container li:nth-child(1) {
+    color: rgba(241, 241, 241, 0.685);
+    font-size: 22px;
+  }
+  .text-container li:nth-child(2) {
+    color: #fff;
+    font-size: 60px;
+  }
+  .text-container li:nth-child(3) {
+    font-style: italic;
+    color: #fff;
+    font-size: 30px;
+  }
+  .text-container li:nth-child(4) {
+    font-style: italic;
+    color: #fff;
+    font-size: 30px;
+  }
+  .text-container li {
+    list-style: none;
+    line-height: 0px;
+    padding: 25px 0px 25px;
+  }
+  .text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+  }
+  .text-container button {
+    margin: 2rem 1rem;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .text-container button:hover {
+    margin: 2rem 1rem;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: #3694ff86;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .about__btn {
+    border: 2px solid #0b0b0b;
+    color: #373636;
+  }
+  .cv__btn {
+    background-color: #3693ff86;
+    color: #ffffff;
+    border: 2px solid;
+  }
+  .cv__btn:hover {
+    background-color: ffffff;
+    color: #3693ff;
+  }
+  button:active {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .mainphoto {
+    height: 500px;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    border-radius: 40%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .about__container {
+    width: 70%;
+    height: 530px;
+    background: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    position: relative;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .about__container h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about__container p {
+    margin: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .about__container img {
+    width: 20vh;
+    position: absolute;
+    left: 10%;
+    top: -7%;
+  }
+  main {
+    padding: 0;
+    margin: 0;
+    background: url(/background-cement.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */
