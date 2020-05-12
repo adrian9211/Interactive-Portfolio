@@ -76,7 +76,7 @@
   }
   /*  Content section */
   header {
-    background: url(/background4.jpg) no-repeat center center fixed;
+    background: url("https://github.com/adrian9211/Interactive-Portfolio/blob/master/background4.jpg?raw=true") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
   }
@@ -193,7 +193,7 @@
   main {
     padding: 0;
     margin: 0;
-    background: url(/background-cement.jpg) no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/adrian9211/Interactive-Portfolio/master/background-cement.jpg") no-repeat center center fixed;
     background-size: cover;
   }
 }
