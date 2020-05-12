@@ -43,19 +43,7 @@
             align-items: center;
     list-style: none;
   }
-  #navbar h2 a {
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-  }
-  #navbar h2 a:hover {
-    background: -webkit-linear-gradient(#333, #eee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-  }
-  #navbar li a {
+  #navbar ul li a {
     text-decoration: none;
     color: #fff;
     padding: 1.5rem;
@@ -66,13 +54,25 @@
     transition: 0.5s;
   }
   #navbar li a:hover {
-    background-color: cadetblue;
+    background-color: #609d9f;
     text-decoration: none;
     color: #fff;
     padding: 1.5rem;
     font-size: 1.4rem;
     margin: 0 0.5rem;
     border-radius: 5px;
+  }
+  #navbar h2 a {
+    background: -webkit-linear-gradient(#fff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+  #navbar h2 a:hover {
+    background: -webkit-linear-gradient(#333, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
   }
   /*  Content section */
   header {
@@ -121,25 +121,28 @@
     width: 140px;
     height: 40px;
     border-radius: 10px;
-    color: white;
-    background: #3694ff86;
+    color: #fff;
+  }
+  .about__btn {
+    border: 2px solid #000000;
+    color: #373636;
+  }
+  .about__btn:hover {
+    background: #3693ff86;
     -webkit-transition: 0.1s;
     transition: 0.1s;
     font-weight: bold;
     font-size: 1rem;
   }
-  .about__btn {
-    border: 2px solid #0b0b0b;
-    color: #373636;
-  }
   .cv__btn {
     background-color: #3693ff86;
-    color: #ffffff;
+    color: #fff;
     border: 2px solid;
   }
   .cv__btn:hover {
-    background-color: ffffff;
-    color: #3693ff;
+    background-color: #373636;
+    color: #3693ff86;
+    border: 2px solid;
   }
   button:active {
     -webkit-transform: scale(1.1);
@@ -182,13 +185,14 @@
   .about__container p {
     margin: 20px;
     font-size: 1.5rem;
-    text-align: center;
+    text-align-last: right;
   }
   .about__container img {
     width: 20vh;
-    position: absolute;
+    position: relative;
     left: 10%;
-    top: -7%;
+    top: 17%;
+    border-radius: 50%;
   }
   main {
     padding: 0;
@@ -197,4 +201,7 @@
     background-size: cover;
   }
 }
+
+/*End of media querry for devices over 710px screen size */
+/*Media querry for devices below 710px */
 /*# sourceMappingURL=style.css.map */
