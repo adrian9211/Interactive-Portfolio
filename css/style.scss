@@ -62,12 +62,7 @@ $border_black :  #000000;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
   }
-  #navbar h2 a:hover {
-    background: -webkit-linear-gradient( $nav__background,$clear__color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-  }
+  
   /*  Content section */
  header {
 
@@ -152,7 +147,7 @@ $border_black :  #000000;
   }
   .about__container {
     width: 70%;
-    height: 530px;
+    height: 100%;
     background: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
@@ -170,21 +165,27 @@ $border_black :  #000000;
   .about__container p {
     margin: 20px;
     font-size: 1.5rem;
-    text-align-last: right;
+    text-align: center;
   }
   .about__container img{
     width: 20vh;
     position: relative;
     left: 10%;
-    top: 17%;
+    top: 80px;
     border-radius: 50%;
   }
   main {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     background: url("https://raw.githubusercontent.com/adrian9211/Interactive-Portfolio/master/background-cement.jpg") no-repeat center center fixed;
     background-size: cover;
   }
+}
+
+footer {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
 }
 /*End of media querry for devices over 710px screen size */
 
