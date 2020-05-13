@@ -7,9 +7,9 @@
     <script src="https://kit.fontawesome.com/ad669c31b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="flex2">
     <nav id="navbar">
-        <h2><a href="#home"><span class="text-primary">Adrian</span>Nykiel</a></h2>
+        <h2><a id="home" href="#home"><span class="text-primary">Adrian</span>Nykiel</a></h2>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -36,22 +36,19 @@
                 <li>I'm <i>ADRIAN</i></li>
                 <li>Web Developer</li>
                 <li>& UI Designer</li>
-                <button class="about__btn">About</button>
-                <button class="cv__btn"><a href="https://github.com/adrian9211/Interactive-Portfolio/blob/master/CV_Adrian%20Nykiel.pdf" download="https://github.com/adrian9211/Interactive-Portfolio/blob/master/CV_Adrian%20Nykiel.pdf"></a> Download CV</button>
-                
-
-                <a href="CV_Adrian Nykiel.pdf">Dow</a>
+                <button onclick="window.location.href='#aboutlink'" class="about__btn">About</button>
+                <button onclick="window.location.href='/CV_Adrian Nykiel.pdf'" class="cv__btn" >Download CV</button>
             </div>
-            <img class="mainphoto" src="S84c.png" alt="">
+            <img class="mainphoto" src="S84c.png" alt="signature photo" >
     </header>
     <main>
-        <div class="about__container">
+        <div class="about__container" id="aboutlink" >
             <img src="S84ah.png" alt="profilephoto">
             <h2>About me!</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure inventore sed, mollitia asperiores delectus laboriosam quis. Fugit laudantium doloribus deleniti quod perferendis perspiciatis maxime ad consequuntur labore quisquam, velit tempora sunt. Perferendis, sed. Sequi blanditiis dolores, totam vitae quidem delectus. Dignissimos distinctio architecto officiis, magnam repellat, corporis quod voluptate libero expedita, fugit quibusdam! Libero porro laboriosam dolores quidem expedita vitae, odio cum repudiandae praesentium quis animi nesciunt neque doloremque atque reprehenderit, id quasi, adipisci officia ut voluptatum? Perspiciatis, porro dolore? Voluptatum harum accusamus dolore fugiat quas natus ab blanditiis expedita quis odit. Totam hic molestiae expedita odio impedit alias ullam sunt illo vitae. Ullam aliquid ipsum, atque earum numquam, necessitatibus debitis ea ipsa quia inventore vel nobis, unde autem quis consequatur. Vitae omnis minima nulla impedit expedita, modi praesentium fugit incidunt, quibusdam atque, voluptatem quae at asperiores maiores pariatur odio ducimus? Quia non facere nihil deserunt laborum aspernatur, eum quasi?</p>
         </div>
+        <div class="about__container2">
         <section class="resume">
-            <h1>Resume</h1>
             <section>
                 <div>
                     <h1 class="name">Adrian Nykiel</h1>
@@ -144,9 +141,13 @@
                     <br>
                     <br>
                 </div>
+                <button onclick="window.location.href='#home'" >Back to the top</button>
             </section>
         </section>
+        
+    </div>
     </main>
+    
     <footer>
         <address>
           Kirkcaldy, Fife, Scotland

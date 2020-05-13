@@ -6,6 +6,9 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
@@ -188,6 +191,26 @@
     top: 80px;
     border-radius: 50%;
   }
+  .about__container2 {
+    width: 70%;
+    height: 100%;
+    background: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    position: relative;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   main {
     padding: 20px;
     margin: 0;
@@ -196,10 +219,42 @@
   }
 }
 
+/* All files from prevous project*/
+.boldtext {
+  font-weight: bold;
+  list-style: none;
+}
+
+.alignment {
+  padding-left: 100px;
+}
+
+.name {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 5rem;
+}
+
+.name2 {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.righth2 {
+  padding-left: 30px;
+}
+
+/* All files from prevous project*/
 footer {
   margin: 0px;
   padding: 20px;
   text-align: center;
+}
+
+.resume {
+  padding-left: 20%;
 }
 
 /*End of media querry for devices over 710px screen size */
