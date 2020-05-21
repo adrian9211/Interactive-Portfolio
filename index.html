@@ -164,18 +164,18 @@
                            Mon - Fri 8:00 am to 6:00 pm
                         </div>
                     </div>
-                    <form class="form__contact" action="mailto:adrian9211@gmail.com" method="get" enctype="text/plain">
+                    <form class="form__contact" action="mailto:adrian9211@gmail.com" method="post" enctype="text/plain">
                     <div class="form__contact__flex">
                         <div class="form__contact__left">
-                            <input type="text" id="input-name" placeholder="Name">
-                            <input type="email" id="input-email" placeholder="Email address">
-                            <input type="text" id="input-subject" placeholder="Subject">
+                            <input type="text" name="name" id="input-name" placeholder="Name">
+                            <input type="email" name="mail" id="input-email" placeholder="Email address">
+                            <input type="text" name="subject" id="input-subject" placeholder="Subject">
                         </div>
                         <div class="form__contact__right">
-                            <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                            <textarea name="message" name="message" type="text" id="input-message" placeholder="Message"></textarea>
                         </div>
                     </div>
-                    <input type="submit" value="Submit" id="input-submit" >
+                    <input type="submit" value="Send" id="input-submit" >
                     </form>
                 </div>
                 <button class="back__btn" onclick="window.location.href='#homelink'" ><i class="far fa-arrow-alt-circle-up fa-2x"></i>Back to the top
