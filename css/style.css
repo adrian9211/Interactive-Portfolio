@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -629,9 +633,6 @@ body {
   .resume {
     padding-left: 20%;
   }
-  aside br {
-    height: 1000px;
-  }
 }
 
 /*End of media querry for devices over 710px screen size */
@@ -740,7 +741,7 @@ body {
   .menu-wrap .menu {
     position: absolute;
     top: 0;
-    left: 60%;
+    right: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1104,9 +1105,6 @@ body {
     font-weight: bold;
     list-style: none;
   }
-  .alignment {
-    padding-left: 100px;
-  }
   .name {
     margin-bottom: 0;
     text-align: left;
@@ -1150,9 +1148,7 @@ body {
   .aside__social__media__icons {
     position: fixed;
     top: 50%;
-    right: 0px;
-    -webkit-transform: translateX(-30%);
-            transform: translateX(-30%);
+    right: 2%;
   }
   .aside__social__media__icons a {
     padding: 0;
@@ -1223,9 +1219,6 @@ body {
   }
   .resume {
     padding-left: 20%;
-  }
-  aside br {
-    height: 1000px;
   }
 }
 /*# sourceMappingURL=style.css.map */

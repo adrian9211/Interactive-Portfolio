@@ -15,6 +15,9 @@ $form__contact__background : rgba(204, 203, 203, 0.466) ;
   padding: 0;
   box-sizing: border-box;
 }
+html,body{
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -508,9 +511,6 @@ footer {
   padding-left: 20%;
 }
 
-aside br {
-  height: 1000px;
-}
 
 }
 
@@ -532,6 +532,8 @@ aside br {
 /*Media querry for devices below 800px */
 
 @media all and (max-width:800px) {
+
+ 
   .menu-wrap {
     position: relative;
     top: 80px;
@@ -627,7 +629,7 @@ aside br {
   .menu-wrap .menu {
     position: absolute;
     top: 0;
-    left: 60%;
+    right: 30%;
     display: flex;
     flex-direction: row;
     visibility: hidden;
@@ -942,7 +944,7 @@ main {
   list-style: none;
 }
 .alignment {
-  padding-left: 100px;
+  
 }
 .name {
   margin-bottom: 0;
@@ -978,10 +980,11 @@ font-style: italic;
   text-decoration: none;
 }
 .aside__social__media__icons {
+  
   position: fixed;
   top: 50%;
-  right: 0px;
-  transform: translateX(-30%);
+  right:  2%;
+ 
 }
 .aside__social__media__icons a{
   padding: 0;
@@ -1031,9 +1034,6 @@ font-style: italic;
 
 
 
-
-// ???????????
-
 footer {
   margin: 0px;
   padding: 20px;
@@ -1055,10 +1055,5 @@ footer {
   padding-left: 20%;
 }
 
-aside br {
-  height: 1000px;
-}
-
-// ???????????
 
 }
