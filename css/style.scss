@@ -694,21 +694,11 @@ footer {
         margin: 0 0.5rem;
         border-radius: 5px;
       }
-      
-  
 
-
-
-
-
-
-
-  
     /*  Content section */
 
 
   header {
-
     background: url("https://github.com/adrian9211/Interactive-Portfolio/blob/master/background4.jpg?raw=true") no-repeat center center fixed;
     background-size: cover;
     height: 120vh;
@@ -802,7 +792,7 @@ footer {
     animation: fadeUp 1.9s forwards;
   }
   .about__container {
-    width: 70%;
+    width: 100%;
     height: 100%;
     background: white;
     border-radius: 20px;
@@ -814,9 +804,8 @@ footer {
     justify-content: space-evenly;
   }
   .about__container h2 {
-    margin: 2rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
-    padding-top: 20px;
     text-align: center;
     opacity: 0;
     animation: fadeUp 1.9s forwards;
@@ -830,7 +819,7 @@ footer {
     width: 20vh;
     position: relative;
     left: 10%;
-    top: 30px;
+    top: 20px;
     border-radius: 50%;
     animation: scale .5s forwards;
     &:hover {
@@ -841,7 +830,7 @@ footer {
   }
 
   .about__container2 {
-    width: 70%;
+    width: 100%;
     height: 100%;
     background: white;
     border-radius: 20px;
@@ -892,6 +881,9 @@ footer {
         width: 400px;
     }
     }
+  }
+  .resume {
+    padding-left: 5%;
   }
     .form__contact__flex {
     display: flex;
@@ -983,11 +975,7 @@ font-style: italic;
   text-decoration: none;
 }
 .aside__social__media__icons {
-  
-  position: fixed;
-  top: 50%;
-  right:  2%;
- 
+  display: none;
 }
 .aside__social__media__icons a{
   padding: 0;
@@ -1051,11 +1039,6 @@ footer {
   address {
     padding: 10px;
   }
-}
-
-
-.resume {
-  padding-left: 20%;
 }
 
 
