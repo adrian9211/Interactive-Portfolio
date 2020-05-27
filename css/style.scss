@@ -79,9 +79,6 @@ body {
 
 /*Media querry for devices over 801 px*/
 @media all and (min-width:801px) {
-  
-
-
 .menu ul {
   font-size: 2rem;
   display: flex;
@@ -217,14 +214,14 @@ body {
     border-radius: 10px;
     font-weight: bold;
     font-size: 1rem;
+    &:hover {
+      margin:2rem 1rem ;
+      width: 140px;
+      height: 40px;
+      border-radius: 10px;
+      color: $clear__color;
+     }
   }
-  .text-container button:hover {
-    margin:2rem 1rem ;
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
-    color: $clear__color;
-   }
   .about__btn {
     cursor: pointer;
     border: 2px solid $border_black;
@@ -280,9 +277,10 @@ body {
     animation: fadeUp 1.9s forwards;
   }
   .about__container p {
+    padding: 10px 80px 80px 100px;
     margin: 20px;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
   }
   .about__container img{
     width: 20vh;
@@ -294,7 +292,51 @@ body {
     
   }
 
-  
+  .portfolio__container {
+    width: 70%;
+    height: 100%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    justify-content: space-evenly;
+    h2 {
+      text-transform: uppercase;
+      margin: 2rem;
+      font-size: 2rem;
+      text-align: center;
+      opacity: 0;
+      animation: fadeUp 1.9s forwards;
+    }
+    h3 {
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 1.5rem;
+      text-align: center;
+      opacity: 0;
+      animation: fadeUp 1.9s forwards;
+    }
+    p {
+      padding: 10px 80px 80px 100px;
+      margin: 20px;
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    img {
+      position: relative;
+      width: 40%;
+     left: 55%;
+    }
+  }
+
+
+
+
+
+
 
   .about__container2 {
     width: 70%;
@@ -314,7 +356,6 @@ body {
       margin-top: 0;
       padding: 25px 0 15px;
       animation: scale .5s forwards;
-      
       }
     form {
       max-width: 600px;
@@ -350,7 +391,6 @@ body {
         width: 400px;
     }
     }
-  }
   .form__contact__flex {
     display: flex;
     flex-direction: row;
@@ -360,19 +400,19 @@ body {
   margin: 0;
 }
 
-.form__contact {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.allign__all {
+  .form__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+  }
+  .allign__all {
   margin: 20px 0 30px;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-}
-.icon {
+  }
+  .icon {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -385,7 +425,9 @@ body {
   &:hover {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
   }
+  }
 }
+
 main {
     padding: 20px;
     margin: 0;
@@ -1469,34 +1511,33 @@ footer {
 .social__media__icons {
   display: flex;
   justify-content: center;
-}
-.social__media__icons a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $social__media_icon__background ;
-  margin: 20px 10px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-decoration: none;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $social__media_icon__background ;
+    margin: 20px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
 }
 .aside__social__media__icons {
   display: none;
-}
-.aside__social__media__icons a{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  width: 60px;
-  height: 60px;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  background-color: $clear__color;
-  border: 1px solid $border_black;
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
-
+  a {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: $clear__color;
+    border: 1px solid $border_black;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+  }
 }
 .social__media__icons i,
 .aside__social__media__icons i{
@@ -1509,9 +1550,9 @@ footer {
   transition: all ease 0.3s;
 }
 
+
+
 /* Footer and social media icons end*/
 
 /* End of media querries below 800*/
-
-
 }
