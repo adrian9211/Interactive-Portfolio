@@ -913,15 +913,15 @@ footer {
     #line {
       border-right: 1px solid #ddd;
       font-size: 1rem;
-      width: 70px;
+      width: 45px;
       height: 100%;
-      padding: 0 15px;
+      padding: 0 5px;
       text-align: right;
       &::after{
         content: '';
           position: relative;
           top: -5%;
-          right: -50px;
+          right: -35px;
           display: block;
           width: 8px;
           height: 8px;
