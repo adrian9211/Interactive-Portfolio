@@ -3,17 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian Nykiel Web Developer</title>
     <script src="https://kit.fontawesome.com/ad669c31b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 </head>
 <body class="flex2">
     <div class="menu-wrap">
@@ -33,7 +27,7 @@
           </div>
         </div>
       </div>
-    <header>
+    <!-- <header>
         <div class="text-container">
                 <li>Hello,</li>
                 <li>I'm <i>ADRIAN</i></li>
@@ -43,28 +37,151 @@
                 <button onclick="window.location.href='/CV_Adrian Nykiel.pdf'" class="cv__btn" >Download CV</button>
             </div>
             <img class="mainphoto" src="S84c.png" alt="signature photo" >
-    </header>
+    </header> -->
     <main>
         <div class="portfolio__container" id="aboutlink" >
             <h2>Portfolio</h2>
-            <h3>See my works below.</h3>
-            <li>Now</li>
-            <p>Currently open to co-operation on new and existing projects.</p>
-            <hr>
-            <li>2019-2020</li>
-            <p>During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.</p>
-            <hr>
-            <li>2019</li>
-            <p class="portfolio__container__website">Font Awesome</p>
-            <img class="fontawesome" src="/fontawesome.png" alt="font awesome photo">
-            <p>Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
-            <br>
-            Font Awesome is one of the top open source projects on GitHub.
-            </p>
-        
-            <hr>
+            <h3>See my works below. Unless explicitly stated otherwise, <strong> all front-end parts were completely done by me.</strong></h3>
+            <div class="flex">
+                <div>
+                    <li id="line">Now</li>
+                </div>
+                <div>
+                    <li id="description">Currently open to co-operation on new and existing projects.</li>
+                    <hr>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <li id="line">2020</li>
+                </div>
+                <div>
+                    <li id="description">During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.</li>
+                    <hr>
+                </div>
+                <hr>
+            </div>
+            <div class="flex">
+                <div>
+                    <li id="line">2019-2020</li>
+                </div>
+                <div>
+                    <h4>Font Awesome</h4>
+                    <div class="flex__description">
+                    <div>
+                        <li id="description">Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
+                        <br>
+                        Font Awesome is one of the top open source projects on GitHub.
+                        </li>
+                        <button class="visit__btn" onclick=" window.open('https://fontawesome.com/')">Visit website
+                        </button>
+                    </div>
+                    <div>
+                        <a href="https://fontawesome.com/" target="_blank">
+                        <img class="fontawesome" src="/fontawesome.png" alt="font awesome photo">
+                    </a>
+                    </div>
+                </div>
+                        <hr>
+                </div>
+            </div><div class="flex">
+                <div>
+                    <li id="line">2019</li>
+                </div>
+                <div>
+                    <h4>Coolors.co</h4>
+                    <div class="flex__description">
+                    <div>
+                        <li id="description">The super fast color schemes generator!</li>
+                        <li id="description">Create the perfect palette or get inspired by thousands of beautiful color schemes.</li>
+                        <button class="visit__btn" onclick=" window.open('https://coolors.co/')">Visit website
+                        </button>
+                    </div>
+                    <div>
+                        <a href="https://coolors.co/" target="_blank">
+                        <img src="/colors.png" alt="Coolors.co">
+                    </a>
+                    </div>
+                </div>
+                        <hr>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <li id="line">2019</li>
+                </div>
+                <div>
+                    <h4>Flat UI</h4>
+                    <div class="flex__description">
+                    <div>
+                        <li id="description">Flat UI Colors 2 — 13 Countries, 13 Designers, 13 More Color Palettes</li>
+                        <li id="description">A total set of 14 color palettes and 280 colors for your designs, projects, presentations and other needs.</li>
+                        <button class="visit__btn" onclick=" window.open('https://flatuicolors.com/')">Visit website
+                        </button>
+                    </div>
+                    <div><a href="https://coolors.co/" target="_blank">
+                        <img src="/flatui.png" alt="Flat UI">
+                    </a>
+                        
+                    </div>
+                </div>
+                        <hr>
+                </div>
+            </div><div class="flex">
+                <div>
+                    <li id="line">2018</li>
+                </div>
+                <div>
+                    <h4>CSS-Tricks</h4>
+                    <div class="flex__description">
+                    <div>
+                        <li id="description">Helpful articles about the front-end development industry. A whole bunch of design and CSS tricks.</li>
+                        <button   button class="visit__btn" onclick=" window.open('https://css-tricks.com/')">Visit website
+                        </button>
+                    </div>
+                    <div>
+                        <a href="https://coolors.co/" target="_blank">
+                            <img src="/csstricks.png" alt="CSS-Tricks">
+                        </a>
+                    </div>
+                </div>
+                            <hr>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <li id="line">2017</li>
+                </div>
+                <div>
+                    <h4>My Resume</h4>
+                    <div class="flex__description">
+                        <div>
+                            <li id="description">This is where my journey with the front-end development industry began.</li>
+                            <li id="description">My first website shows how big a step forward I made since I started in 2017.</li>
+                            <li id="description">This website has  been created just with HTML and CSS.</li> 
+                            <button class="visit__btn" onclick=" window.open('https://adrian9211.github.io/adrianproject.github.io/')">Visit website
+                                 </button>
+                        </div>
+                        <div>
+                            <a href="https://coolors.co/" target="_blank">
+                                <img src="/resume.png" alt="Resume">
+                            </a>
+                           
+                        </div> 
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <p id="portfolio__section">I am available for hire and open to any ideas of cooperation. <br>
+                Just see section below.</p>
+
 
         </div>
+
+
+
+
         <br>                                <!-- Break between sections -->
 
         <br>
