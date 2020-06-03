@@ -185,7 +185,7 @@ body {
   }
   /*  Content section */
   header {
-    background: url("https://github.com/adrian9211/Interactive-Portfolio/blob/master/background4.jpg?raw=true") no-repeat center center fixed;
+    background: url("/pictures/background4.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
   }
@@ -589,7 +589,7 @@ body {
   main {
     padding: 20px;
     margin: 0;
-    background: url("https://raw.githubusercontent.com/adrian9211/Interactive-Portfolio/master/background-cement.jpg") no-repeat center center fixed;
+    background: url("/pictures/background-cement.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   /* All files from prevous project*/
@@ -904,7 +904,7 @@ body {
   /*Hamburger menu end*/
   /* Header Content section start*/
   header {
-    background: url("https://github.com/adrian9211/Interactive-Portfolio/blob/master/background4.jpg?raw=true") no-repeat center center fixed;
+    background: url("/pictures/background4.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 120vh;
   }
@@ -997,7 +997,7 @@ body {
   main {
     padding: 20px;
     margin: 0;
-    background: url("https://raw.githubusercontent.com/adrian9211/Interactive-Portfolio/master/background-cement.jpg") no-repeat center center fixed;
+    background: url("/pictures/background-cement.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .about__container {
@@ -1631,7 +1631,7 @@ body {
   /*Hamburger menu end*/
   /* Header Content section start*/
   header {
-    background: url("https://github.com/adrian9211/Interactive-Portfolio/blob/master/background4.jpg?raw=true") no-repeat center center fixed;
+    background: url("/pictures/background4.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 120vh;
   }
@@ -1724,7 +1724,7 @@ body {
   main {
     padding: 20px;
     margin: 0;
-    background: url("https://raw.githubusercontent.com/adrian9211/Interactive-Portfolio/master/background-cement.jpg") no-repeat center center fixed;
+    background: url("/pictures/background-cement.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .about__container {
