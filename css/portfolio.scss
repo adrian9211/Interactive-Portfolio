@@ -1,13 +1,5 @@
-$nav__background : #333;
-$nav__hover__background : rgb(96, 157, 159);
-$clear__color : #fff;
-$header__cv__btn__hover : #373636;
-$header__btn : #3693ff86;
-$border_black :  #000000; 
-$social__media_icon__background : #e6e3e3;
-$submit__btn : rgba(255, 0, 0, 0.637);
-$submit__btn__hover : rgba(255, 0, 0, 0.404);
-$form__contact__background : rgba(204, 203, 203, 0.466) ;
+@import 'variables.scss';
+@import 'animations.scss';
 
 /* Genaral styles */
 * {
@@ -31,50 +23,7 @@ body {
 /* Genaral styles */
 
 
-/* Animations start*/
-@keyframes fadeUp {
-  0%{
-    transform: translateY(-8rem);
-  }
-  100%{
-    opacity: 1;
-    transform: translateY(0rem);
-  }
-}
-@keyframes scale {
-  0%{
-    transform: scale(3);
-  }
-  100%{
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes fontbulger {
-  0%, 100% {
-    font-size: 2rem;
-  }
-  50% {
-    font-size: 3rem;
-  }
-}
-@keyframes move {
-  from { top: 0; left: 0; }
-  to   { top: 100px; left: 100px; }
-}
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-/* Animations end*/
 
 /*Media querry for devices over 801 px*/
 @media all and (min-width:801px) {
@@ -163,11 +112,11 @@ body {
       }
     }
     h2 {
+      overflow-wrap: break-word;
       margin-left: 30px;
-      padding: 30px;
-      text-transform: uppercase;
+      padding: 60px;
       font-size: 3rem;
-      text-align: left;
+      text-align: center;
       opacity: 0;
       animation: fadeUp 1.9s forwards;
     }
@@ -268,7 +217,7 @@ body {
     position: relative;
     justify-content: space-evenly;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;
@@ -791,11 +740,11 @@ footer {
       }
     }
     h2 {
+      overflow-wrap: break-word;
       margin-left: 0;
-      padding: 30px;
-      text-transform: uppercase;
+      padding: 50px;
       font-size: 3rem;
-      text-align: left;
+      text-align: center;
       opacity: 0;
       animation: fadeUp 1.9s forwards;
     }
@@ -837,6 +786,9 @@ footer {
       position: relative;
       width: 90%;
      left: 5%;
+     &:hover {
+      transform: scale(1.1);
+     }
     }
     button {
     position: relative;
@@ -890,7 +842,7 @@ footer {
     position: relative;
     justify-content: space-evenly;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;
@@ -1369,7 +1321,7 @@ footer {
     position: relative;
     justify-content: space-evenly;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;

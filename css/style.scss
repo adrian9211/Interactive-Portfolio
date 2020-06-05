@@ -1,14 +1,5 @@
-$nav__background : #333;
-$nav__hover__background : rgb(96, 157, 159);
-$clear__color : #fff;
-$header__cv__btn__hover : #373636;
-$header__btn : #3693ff86;
-$border_black :  #000000; 
-$social__media_icon__background : #e6e3e3;
-$submit__btn : rgba(255, 0, 0, 0.637);
-$submit__btn__hover : rgba(255, 0, 0, 0.404);
-$form__contact__background : rgba(204, 203, 203, 0.466) ;
-
+@import 'variables.scss';
+@import 'animations.scss';
 /* Genaral styles */
 * {
   margin: 0;
@@ -31,50 +22,7 @@ body {
 /* Genaral styles */
 
 
-/* Animations start*/
-@keyframes fadeUp {
-  0%{
-    transform: translateY(-8rem);
-  }
-  100%{
-    opacity: 1;
-    transform: translateY(0rem);
-  }
-}
-@keyframes scale {
-  0%{
-    transform: scale(3);
-  }
-  100%{
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes fontbulger {
-  0%, 100% {
-    font-size: 2rem;
-  }
-  50% {
-    font-size: 3rem;
-  }
-}
-@keyframes move {
-  from { top: 0; left: 0; }
-  to   { top: 100px; left: 100px; }
-}
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-/* Animations end*/
 
 /*Media querry for devices over 801 px*/
 @media all and (min-width:801px) {
@@ -218,7 +166,7 @@ body {
   }
   .about__container h2 {
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     opacity: 0;
     animation: fadeUp 1.9s forwards;
@@ -385,8 +333,9 @@ body {
     justify-content: flex-start;
     position: relative;
     justify-content: space-evenly;
+    
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;
@@ -484,6 +433,7 @@ main {
   padding-left: 100px;
 }
 .name {
+  padding-top: 30px;
   margin-bottom: 0;
   text-align: left;
   font-size: 5rem;
@@ -864,7 +814,7 @@ footer {
   .about__container h2 {
     padding-top: 20px;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     opacity: 0;
     animation: fadeUp 1.9s forwards;
@@ -1031,7 +981,7 @@ footer {
     position: relative;
     justify-content: space-evenly;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;
@@ -1073,13 +1023,14 @@ footer {
     }
   }
   .resume {
-    padding-left: 5%;
+    padding-left: 10%;
   }
   .boldtext {
     font-weight: bold;
     list-style: none;
   }
   .name {
+    padding-top: 30px;
     margin-bottom: 0;
     text-align: left;
     font-size: 5rem;
@@ -1370,24 +1321,28 @@ footer {
     height: 120vh;
   }
   .text-container{
+    overflow-wrap: break-word;
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 40%;
     opacity: 0;
     animation: fadeUp .9s forwards;
   }
   .text-container li:nth-child(1){
+    overflow-wrap: break-word;
     padding-right: 0;
     color: rgba(241, 241, 241, 0.685);
     font-size: 22px;
   }
   .text-container li:nth-child(2) {
+    overflow-wrap: break-word;
     padding-right: 0;
     color: $clear__color;
     font-size: 60px;
   }
   .text-container li:nth-child(3) {
     padding-right: 0;
+    overflow-wrap: break-word;
     font-style: italic;
     color: $clear__color;
     font-size: 30px;
@@ -1474,7 +1429,7 @@ footer {
   .about__container h2 {
     padding-top: 20px;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     opacity: 0;
     animation: fadeUp 1.9s forwards;
@@ -1510,7 +1465,7 @@ footer {
     position: relative;
     justify-content: space-evenly;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       text-align: center;
       margin-top: 0;
       padding: 25px 0 15px;
@@ -1550,14 +1505,15 @@ footer {
     }
   }
   .resume {
-    padding-left: 5%;
+    padding-left: 10%;
   }
   .boldtext {
     font-weight: bold;
     list-style: none;
   }
   .name {
-    margin-bottom: 0;
+    padding-top: 30px;
+    margin-bottom: 0px;
     text-align: left;
     font-size: 5rem;
   }
